@@ -4,12 +4,15 @@ GEM
     amq-protocol (2.2.0)
     bunny (2.7.2)
       amq-protocol (>= 2.2.0)
+    march_hare (3.0.0-java)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   bunny (~> 2.7, >= 2.7.2)
+  march_hare (~> 3.0)
 
 BUNDLED WITH
    1.16.0
